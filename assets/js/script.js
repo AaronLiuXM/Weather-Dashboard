@@ -71,7 +71,7 @@ function displayWeather(data) {
   //current weather display on page
   cityEl.innerHTML = name + " (" + todayDate + ")";
   tempEl.innerHTML = temp + "F°";
-  iconEl.src = "https://openweathermap.org/img/wn/" + icon + ".png";
+  iconEl.src = "https://openweathermap.org/img/w/" + icon + ".png";
   windEl.innerHTML = speed + "MPH";
   humidityEl.innerHTML = humidity + "%";
 
