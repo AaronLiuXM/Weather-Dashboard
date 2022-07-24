@@ -41,6 +41,7 @@
               <button type="submit" class="btn bg-primary">Search City</button>
             </form>
           </div>
+          <div class="searchHistory"></div>
         </div>
         <!--Result page-->
         <div class="col-8">
@@ -56,9 +57,12 @@
               <p>UV index: <span class="current" id="uv-index"></span></p>
             </div>
           </div>
+          <h5 id="five-day">5-Day Forecast</h5>
+          <div class="d-inline-flex flex-wrap" id="daily-forecast"></div>
         </div>
       </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="./assets/js/script.js"></script>
   </body>
 </html>
