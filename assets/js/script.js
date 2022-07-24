@@ -109,10 +109,10 @@ function fiveDayForcast(lat, lon) {
         if (index === 0 || index > 5) {
           return;
         }
-        let forecastDate = new Date(day.dt * 1000);
-        let forecastTemp = day.temp.day;
-        let forecastWind = day.wind_speed;
-        let forecastHumidity = day.humidity;
+        var forecastDate = new Date(day.dt * 1000);
+        var forecastTemp = day.temp.day;
+        var forecastWind = day.wind_speed;
+        var forecastHumidity = day.humidity;
         var forecastIcon =
           "https://openweathermap.org/img/w/" + day.weather[0].icon + ".png";
         var forecastCard = document.createElement("div");
